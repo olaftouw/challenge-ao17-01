@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<title>Challange</title>
+</head>
+<body>
+		<nav>
+			<ul>
+				<li><a href="../home/index.html">Home</a></li>
+				<li><a href="../over/over.html">Over</a></li>
+				<li><a href="../jobs/jobs.html">Jobs</a></li>
+				<li><a href="../contact/contact.html">Contact</a></li>
+			</ul>	
+		</nav>
+	<header>
+		<img class="sandwhich" src="../over/life-is-like-a-sandwhich-overlay.png">
+	</header>
+	<main>
+		<article class="collom1">
+			<h1 class="article">WERKEN BIJ ESPRESSOBAR CHAVEZ</h1>
+			<p class="article">Espressobar Chavez is als een tweede huiskamer. Ons horeca-concept draait om koffie, health, genieten en gezelligheid. Floreer jij in zo’n ongedwongen sfeer en bezorg jij anderen graag een fijn moment in zijn of haar dag? Is koffie jouw middle name? Dan zou je zomaar in ons team kunnen passen. Scroll verder voor de vacatures of stuur ons een open sollicitatie.</p>
+		</article>
+		<article class="collom2">
+			<h1 class="article">WIL JE WERKEN BIJ ESPRESSOBAR CHAVEZ? DAN IS DIT WAT WE VAN JE VERWACHTEN:</h1>
+			<p class="article">- Jij wilt gasten een fijn moment in hun dag bezorgen. Iedere klant, iedere dag weer.</p>
+			<p class="article">- Flexibele werktijden zijn voor jou geen probleem.</p>
+			<p class="article">- Je pakt zaken met passie aan.</p>
+			<p class="article">- Je snapt ons concept en draagt het graag uit.</p>
+			<p class="article">- Niet alleen de gasten, maar ook je collega’s kunnen rekenen op jouw glimlach.</p>
+		</article>
+	</main>
+	<div id="slideShow">
+	<script>
+        var photo = ["url(jobs-banner.jpg)", "url(jobs-banner2.jpg)", "url(jobs-banner3.jpg)"];
+        var photoNumber  =  1;
+        window.setInterval(function(){
+                document.getElementById('slideShow').style.backgroundImage = photo[photoNumber];
+                photoNumber++;
+            if (photoNumber > 2) {
+                    photoNumber = 0;
+            };
+        }, 3000);
+    </script>
+</div>
+	<footer>
+		<p class="footer">Copyright © 2017 Laffey Design</p>
+	</footer>
+</body>
+</html>
